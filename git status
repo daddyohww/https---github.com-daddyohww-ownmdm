@@ -1,0 +1,78 @@
+[33mcommit 305c2344aff4792967169b6f5cf73d23e1077f3b[m
+Author: Roberto Little <rlwhatever@gmail.com>
+Date:   Tue Jul 8 11:08:17 2014 -0700
+
+    SSH
+    
+    clone url
+
+[1mdiff --git a/.gitattributes b/.gitattributes[m
+[1mnew file mode 100644[m
+[1mindex 0000000..412eeda[m
+[1m--- /dev/null[m
+[1m+++ b/.gitattributes[m
+[36m@@ -0,0 +1,22 @@[m
+[32m+[m[32m# Auto detect text files and perform LF normalization[m
+[32m+[m[32m* text=auto[m
+[32m+[m
+[32m+[m[32m# Custom for Visual Studio[m
+[32m+[m[32m*.cs     diff=csharp[m
+[32m+[m[32m*.sln    merge=union[m
+[32m+[m[32m*.csproj merge=union[m
+[32m+[m[32m*.vbproj merge=union[m
+[32m+[m[32m*.fsproj merge=union[m
+[32m+[m[32m*.dbproj merge=union[m
+[32m+[m
+[32m+[m[32m# Standard to msysgit[m
+[32m+[m[32m*.doc	 diff=astextplain[m
+[32m+[m[32m*.DOC	 diff=astextplain[m
+[32m+[m[32m*.docx diff=astextplain[m
+[32m+[m[32m*.DOCX diff=astextplain[m
+[32m+[m[32m*.dot  diff=astextplain[m
+[32m+[m[32m*.DOT  diff=astextplain[m
+[32m+[m[32m*.pdf  diff=astextplain[m
+[32m+[m[32m*.PDF	 diff=astextplain[m
+[32m+[m[32m*.rtf	 diff=astextplain[m
+[32m+[m[32m*.RTF	 diff=astextplain[m
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6dae747[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1,36 @@[m
+[32m+[m[32m# Windows image file caches[m[41m[m
+[32m+[m[32mThumbs.db[m[41m[m
+[32m+[m[32mehthumbs.db[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Folder config file[m[41m[m
+[32m+[m[32mDesktop.ini[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Recycle Bin used on file shares[m[41m[m
+[32m+[m[32m$RECYCLE.BIN/[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Windows Installer files[m[41m[m
+[32m+[m[32m*.cab[m[41m[m
+[32m+[m[32m*.msi[m[41m[m
+[32m+[m[32m*.msm[m[41m[m
+[32m+[m[32m*.msp[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# =========================[m[41m[m
+[32m+[m[32m# Operating System Files[m[41m[m
+[32m+[m[32m# =========================[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# OSX[m[41m[m
+[32m+[m[32m# =========================[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.DS_Store[m
+[32m+[m[32m.AppleDouble[m
+[32m+[m[32m.LSOverride[m
+[32m+[m
+[32m+[m[32m# Icon must ends with two \r.[m
+[32m+[m[32mIcon[m[41m[m
+[32m+[m
+[32m+[m[32m# Thumbnails[m
+[32m+[m[32m._*[m
+[32m+[m
+[32m+[m[32m# Files that might appear on external disk[m
+[32m+[m[32m.Spotlight-V100[m
+[32m+[m[32m.Trashes[m
